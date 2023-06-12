@@ -30,7 +30,7 @@ public class AdminColorUpdateAction implements Action {
 			ServletContext context = session.getServletContext();
 			
 			/* String path = context.getRealPath("image"); */
-			// 수정 : pms
+			// 수정 : pms 경로 오류!
 			 String path = context.getRealPath("images/productImage"); 
 			
 			MultipartRequest multi = new MultipartRequest(
